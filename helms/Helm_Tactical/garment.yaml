@@ -1,0 +1,21 @@
+name: "Tactical"
+texture: "tactical.png"
+slot: Helmet
+layer: Inner
+category: Helmets
+tags: []
+
+graphics:
+  type: Helmet
+  palette_tags: [ "addstandardmetal", "freedetail", "detailcolorsfromblack", "defaultpal:black:yellow" ]
+
+variants:
+  Variant:
+    type: Simple
+    file: tactical.fbx
+    bone: Head
+    material: "Unlit/BurnedSurface"
+    material_inputs:
+      _BurnTex:
+        type: TextureExisting
+        value: "BurnedSurface"

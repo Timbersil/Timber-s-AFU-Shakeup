@@ -1,0 +1,21 @@
+name: "Hog"
+texture: "hog.png"
+slot: Helmet
+layer: Inner
+category: Helmets
+tags: []
+
+graphics:
+  type: Helmet
+  palette_tags: [ "addstandardmetal", "freedetail", "detailcolorsfromblack", "defaultpal:pink:black" ]
+
+variants:
+  Variant:
+    type: Simple
+    file: hog.fbx
+    bone: Head
+    material: "Unlit/BurnedSurface"
+    material_inputs:
+      _BurnTex:
+        type: TextureExisting
+        value: "BurnedSurface"
